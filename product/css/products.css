@@ -1,0 +1,138 @@
+/*--------fruit floor---------*/
+.floors{height:auto;}
+.floorWrapper{ margin:40px auto;  }
+.floorWrapper .floor-title{position: relative;}
+.floorWrapper .floor-title ul{
+    clear:both;
+    height:30px;
+}
+.floorWrapper .floor-title li{
+    margin-right:10px;
+    padding:5px 18px;
+    line-height:20px;
+    font-size:14px;
+    cursor:pointer;
+    float:left;
+}
+.floorWrapper .floor-title li.current{color: #fff;}
+.floorWrapper_0 .floor-line,
+.floorWrapper_0 li.current {  background: #c9d732;  }
+
+.floorWrapper_1 .floor-line,
+.floorWrapper_1 li.current {  background: #e3424f;  }
+
+.floorWrapper_2 .floor-line,
+.floorWrapper_2 li.current {  background: #ffca63;  }
+.floorWrapper .floor-line{
+    width:100%;
+    height:2px;
+}
+.floorWrapper .floor-logo{
+    position:absolute;
+    right:-2px;
+    bottom:2px;
+}
+.floorWrapper .floorLogo_0{
+    width:218px;
+    height:56px;
+    background:url(../images/Momoko.png);
+}
+.floorWrapper .floorLogo_1{
+    width:206px;
+    height:38px;
+    background:url(../images/seafood.png);
+}
+.floorWrapper .floorLogo_2{
+    width:257px;
+    height:51px;
+    background:url(../images/meat.png);
+}
+.floor-content{
+    height:auto;
+    overflow:hidden;
+    margin-right: -10px;
+    position: relative;
+}
+.floorWrapper .items-list{
+    width:288px;
+    height:460px;
+    margin-top:10px;
+    margin-left:10px;
+    float:left;
+    display:inline;
+    overflow:hidden;
+    border:1px solid #e6e6e6;
+    position:relative;
+    -webkit-transition: ease .5s;
+       -moz-transition: ease .5s;
+        -ms-transition: ease .5s;
+         -o-transition: ease .5s;
+            transition: ease .5s;
+}
+body.ie6 .items-list:hover,
+body.ie7 .items-list:hover,
+body.ie8 .items-list:hover
+{
+     zoom:1;
+     filter: progid:DXImageTransform.Microsoft.Shadow(color=#f0f0f0, direction=270, strength=6);
+    -ms-filter:progid:DXImageTransform.Microsoft.Shadow(color=#f0f0f0,direction=270,strength=6)
+}
+.floorWrapper .items-list:hover,
+body.ie6 .items-list:hover,
+body.ie7 .items-list:hover,
+body.ie8 .items-list:hover{
+    /*border:2px solid #f62c49;*/
+    /*width:286px;*/
+    /*height:458px;*/
+    -webkit-box-shadow: 0 0 16px #ccc;
+       -moz-box-shadow:  0 0 16px #ccc;
+            box-shadow:  0 0 16px #ccc;
+     -webkit-transform: scale(1.01);
+        -moz-transform: scale(1.01);
+         -ms-transform: scale(1.01);
+          -o-transform: scale(1.01);
+             transform: scale(1.01);
+               z-index:100;
+     background-color:#fff;
+                  top:-2px;
+}
+.floorWrapper .items-list:hover img{
+    margin-left:-1px;
+    margin-top:-1px;
+}
+.floor-content img{width:290px; height:290px;}
+/*.items-info{text-indent:9px;}*/
+.items-info h3{
+    font-size:16px;
+    color:#333;
+    padding:6px 0;
+    margin-left:9px;
+    border-bottom:1px solid #f2f2f2;
+}
+.items-info .reason{
+    height:49px;
+    line-height:49px;
+    margin-left:9px;
+    border-bottom:1px solid #f2f2f2;
+    font-size:16px;
+    color:#999;
+}
+.items-info .priceSection{  height:76px; text-indent:9px; }
+.originPrice{visibility:hidden; }
+.countSection{
+    color:#999;
+    padding-top:19px;
+    font-size:14px;
+}
+.price{
+    color:#e3424f;
+    font-size:18px;
+}
+.fruit-cart{
+    width:60px;
+    height:60px;
+    background:url(../images/mycart.png);
+    position:absolute;
+    bottom:9px;
+    right:9px;
+}

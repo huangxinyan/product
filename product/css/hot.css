@@ -1,0 +1,109 @@
+.nav-bar{height:58px; line-height:normal;}
+.nav-bar.fixed ul{line-height:58px; padding-top:0;}
+.nav-bar ul{ height:28px;  padding-top:30px;}
+.nav-bar ul li a{padding:0 18px;}
+.goods-body{height:auto; background:url(../images/stripe.png) left -48px repeat-x; background-size:100% 1167px;}
+.line{background:url(../images/line.png) repeat-x; height:3px;}
+.hotImg{height:162px; background:url(../images/hot.png) no-repeat center;}
+
+
+.hotBuy .title{
+    width:648px;
+    height:75px;
+    margin:50px auto 30px;
+    background:url(../images/title.png) no-repeat center;
+    line-height:75px;
+    text-align:center;
+    font-size:30px;
+    color:#f62b49;
+}
+.more .title{
+    width:361px;
+    height:61px;
+    margin:50px auto 45px;
+    background:url(../images/more.png) no-repeat center;
+    line-height:61px;
+    text-align: center;
+    font-size:30px;
+    color:#333;
+}
+.hotBuy .title i{font-size:18px; color:#333; font-family:"楷体"; font-weight:bolder;}
+.tab .clothes dl{
+    width:286px;
+    height:390px;
+    float:left;
+    display:inline-block;
+    margin-bottom:20px;
+}
+.clothes{overflow:hidden;}
+.tab .clothes dl:nth-child(4n+1){
+    margin-left:0;
+}
+/*.tab .clothes>dl+dl+dl{margin-left:0;}*/
+.tab .clothes dl+dl{margin-left:18px;}
+.tab .clothes dl dt{ height:238px;  text-align:center; padding-top:20px;}
+.tab dl dt img{vertical-align:bottom; }
+.clothes dl .clothName{
+    height:52px;
+    font-size:18px;
+    text-indent:32px;
+}
+.clothName a{color:#333;}
+.tab dl .buy{
+    background:url(../images/buy.png) no-repeat;
+    height:80px;
+    width:100%;
+    background-size:contain;
+    line-height:80px;
+    text-indent:20px;
+}
+.buy a{display:block;}
+.buy a span i{
+    color:#f72b49;
+    font-size:20px;
+    font-weight:bolder;
+}
+.buy a span sub{font-size:14px; vertical-align:0;}
+.buy a span del{color:#666; margin-left:10px;}
+.floatR{font-size:18px; color:#fff; float:right; margin-right:12px;}
+
+/*-----tools-----*/
+.myTool{
+    width:590px;
+    height:400px;
+    background:url(../images/major-bg.png);
+    background-size:contain;
+    float:left;
+    position:relative;
+}
+.myTool.tools-left{margin-right:18px;}
+.myTool .discount{
+    width:246px;
+    height: 124px;
+    padding-left:70px;
+    float:right;
+    padding-top:66px;
+}
+.myTool .discount a{
+    display:block;
+    width:108px;
+    height:28px;
+    border: 1px solid #613908;
+    line-height:28px;
+    text-align:center;
+    color:#714e2e;
+    margin-top:9px;
+}
+.myTool .toolShow{
+    height:164px;
+    background-color:#fff;
+    position:absolute;
+    bottom:20px;
+    right:20px;
+    padding:26px 22px 0;
+    width:506px;
+}
+.toolShow a{float:left; width:140px; display:inline-block;}
+.toolShow a+a{margin-left:44px; margin-left:43px\9; _margin-left:42px;}
+.toolShow p{color:#f72b49;}
+.toolShow del{color:#999; margin-left:16px;}

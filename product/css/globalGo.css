@@ -1,0 +1,85 @@
+.special-brand,
+.brand-content,
+.smallShow,
+.goods-content{height:auto; overflow:hidden;}
+.container .title{
+    height:70px;
+    line-height:70px;
+    text-align:center;
+    font-size:22px;
+    color:#333;
+}
+.brand-content .brand-item{
+    height:198px;
+    width:580px;
+    float:left;
+    margin-bottom:20px;
+}
+.brand-content .brand-item:nth-child(2n){margin-left:40px;}
+.brand-item:hover img{opacity:.7;  filter:alpha(opacity=70);}
+.smallShow li{height:92px; width:263px; float:left;}
+.smallShow li a{
+    background:url(../images/top_link.jpg) no-repeat;
+    float:left; display:inline-block; height:92px; width:263px;
+}
+.smallShow li+li{margin-left:48px;}
+.smallShow li .link0{background-position:0 0;}
+.smallShow li .link1{background-position:-283px 0;}
+.smallShow li .link2{background-position:-562px 0;}
+.smallShow li .link3{background-position:-849px 0;}
+.smallShow li:hover .link0{background-position:0 -100px;}
+.smallShow li:hover .link1{background-position:-283px -100px;}
+.smallShow li:hover .link2{background-position:-562px -100px;}
+.smallShow li:hover .link3{background-position:-849px -100px;}
+
+/*---------new goods--------*/
+.goods-content .goods-list{
+      height:382px;
+      /*box-sizing:border-box;*/
+     border:1px solid #ccc;
+     position:relative;
+    -webkit-box-shadow:  1px 1px 4px rgba(204,204,204,.9);
+       -moz-box-shadow:  1px 1px 4px rgba(204,204,204,.9);
+            box-shadow:  1px 1px 4px rgba(204,204,204,.9);
+}
+.goods-content .goods-list:hover{
+    -webkit-box-shadow:  0 2px 17px rgba(0,0,0,.3);
+       -moz-box-shadow:  0 2px 17px rgba(0,0,0,.3);
+            box-shadow:  0 2px 17px rgba(0,0,0,.3);
+}
+.goods-content dl:first-child{margin-top:6px;}
+.goods-content dl{margin-bottom:18px;}
+.goods-list dt,.goods-list dd{
+    width:599px;
+    float:left;
+    display:inline-block;
+}
+.goods-list dd{padding-left:36px; width:563px;}
+.goods-list .brand{
+    height:69px;
+    font-size:16px;
+    width:519px;
+    color:#333;
+    background:url(../images/flag.png) no-repeat 0 center;
+    text-indent:76px;
+    padding-top:14px;
+    border-bottom:1px solid #ccc;
+}
+.brand p{margin-top:6px;}
+.goods-list .detail{font-size:16px; color:#333; width:521px;}
+.detail h3{color:#999; margin-top:26px; margin-bottom:8px;}
+.detail span{
+    width:70px;
+    height:57px;
+    -webkit-border-radius:70px;
+    -moz-border-radius:70px;
+    border-radius:70px;
+    display:block;
+    position:absolute;
+    background-color:#e3424f;
+    color:#fff;
+    text-align:center;
+    padding-top:13px;
+    bottom:31px;
+    right:42px;
+}
